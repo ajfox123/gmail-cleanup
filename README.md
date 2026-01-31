@@ -1,6 +1,6 @@
 # gmail-cleanup
 
-I ran out of Google space, so I built this to yeet redundant archived emails. It finds Gmail messages that are archived (not in Inbox) and have no user labels, then moves them to Trash. It uses the Gmail API and only moves messages to Trash (not permanent delete), so you can undo if you change your mind.
+I ran out of Google space, so I built this to get rid of redundant archived emails (vibe-coded). It finds Gmail messages that are archived (not in Inbox) and have no user labels, then moves them to Trash. It uses the Gmail API and only moves messages to Trash (not permanent delete), so you can undo if you change your mind.
 
 ## What it does
 - Searches with a Gmail query (default: `-in:inbox has:nouserlabels -in:trash -in:spam`)
